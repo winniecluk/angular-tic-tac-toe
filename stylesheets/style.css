@@ -1,0 +1,29 @@
+/** {
+  border: 1px solid red;
+}*/
+
+body {
+  text-align: center;
+  font-size: 2em;
+  /* sizes include the border and the padding */
+  /* if content grows, box grows -- that's the deafult*/
+  /* includes border, padding, fixed height, fixed width*/
+  /* set overflow */
+/*  box-sizing: border-box;*/
+}
+
+table {
+  border: 1px solid black;
+  margin: 0 auto;
+}
+
+td {
+  border: 1px solid black;
+  width: 20vw;
+  height: 20vw;
+  font-size: 2em;
+}
+
+div {
+  padding: 2vh;
+}
